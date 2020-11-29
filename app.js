@@ -9,4 +9,7 @@ app.listen(3000, function() {
 app.get('/', function(req, res) {
     res.send('hello world');
 });
-  
+
+app.get('/login', function(req, res) {
+    res.send('login please');
+});
